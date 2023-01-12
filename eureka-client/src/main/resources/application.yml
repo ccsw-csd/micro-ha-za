@@ -10,3 +10,5 @@ eureka:
       zone2: http://127.0.0.1:8762/eureka/
     availability-zones:
       region-1: zone1,zone2
+  instance:
+    preferIpAddress: true
